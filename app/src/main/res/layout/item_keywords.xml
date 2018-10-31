@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.ttvnp.ttj_point_business_user_android_client.presentation.main.MainActivity">
+    <data>
+        <variable name="key" type="String"/>
+    </data>
+    <TextView
+            android:padding="14dp"
+            android:id="@+id/tv"
+            android:text="@{key}"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:maxWidth="80dp"
+            android:textColor="@android:color/white"
+            tools:text="Bla bla bla bla "
+            android:layout_height="match_parent">
+
+    </TextView>
+</layout>
